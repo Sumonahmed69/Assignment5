@@ -1,0 +1,53 @@
+body{
+    padding: 0 80px;
+}
+#img{
+    width: 300px;
+    height: 50px;
+    margin-right: 350px;   
+}
+.navbar{
+    display: flex;
+}
+.nav{
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    }
+.search-input{
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;    
+}
+.search-btn{
+    border-radius: 5px;
+    height: 45px;
+    width: 80px;
+    background-color: #F06C4E;    
+}
+.search-container{
+    margin: 30px;
+    text-align: center;    
+}
+#img-meal{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#meal{
+    display: grid;    
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);   
+}
+.meal-item{
+    box-shadow: 0 1px 5px gray;
+    padding: 5PX;
+    border-radius: 5px;
+}
+#mealName{
+    margin:  10px;
+}
